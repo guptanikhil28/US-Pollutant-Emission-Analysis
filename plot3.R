@@ -1,0 +1,12 @@
+NEI <- readRDS("summarySCC_PM25.rds")
+SCC <- readRDS("Source_Classification_Code.rds")
+NEI$year=as.factor(NEI$year)
+NEI$type=as.factor(NEI$type)
+p2=tapply(NEI$Emissions,list(NEI$year,NEI$type),sum,na.rm=TRUE)
+p2=cbind(rownames(p2),p2)
+library(reshape)
+p2=melt(p2)
+colnames(p2)=c("year","type","emmission")
+p5 <- ggplot(p2, aes(x=year, y=emmission, colour=type, group=type))+
+  +     geom_line() +geom_point()+ggtitle("Baltimore type emmission")
+plot(p5)
