@@ -14,7 +14,7 @@ For each year and for each type of PM source, the NEI records how many tons of P
 * <b> 𝚏𝚢𝚎𝚊𝚛 </b> The year of emissions recorded
 
 
-<b> Source Classification Code Table </b> This table provides a mapping from the SCC digit strings in the Emissions table to the actual name of the PM2.5 source.For example, source “10100101” is known as “Ext Comb /Electric Gen /Anthracite Coal /Pulverized Coal”.
+<b> Source Classification Code Table: </b> This table provides a mapping from the SCC digit strings in the Emissions table to the actual name of the PM2.5 source.For example, source “10100101” is known as “Ext Comb /Electric Gen /Anthracite Coal /Pulverized Coal”.
 
 ## Objective
 
