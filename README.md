@@ -4,7 +4,7 @@ Fine particulate matter (PM2.5) is an ambient air pollutant for which there is s
 
 For each year and for each type of PM source, the NEI records how many tons of PM2.5 were emitted from that source over the course of the entire year. The data that I have used for this assignment are for 1999, 2002, 2005, and 2008.
 
-** PM2.5 Emissions Data **  This file contains a data frame with all of the PM2.5 emissions data for 1999, 2002, 2005, and 2008. For each year, the table contains number of tons of PM2.5 emitted from a specific type of source for the entire year. Acronyms for the data columns are as mentioned below:
+<b> PM2.5 Emissions Data </b>  This file contains a data frame with all of the PM2.5 emissions data for 1999, 2002, 2005, and 2008. For each year, the table contains number of tons of PM2.5 emitted from a specific type of source for the entire year. Acronyms for the data columns are as mentioned below:
 
 ** f𝚒𝚙𝚜 ** A five-digit number (represented as a string) indicating the U.S. county
 ** 𝚏𝚂𝙲𝙲 ** The name of the source as indicated by a digit string (see source code classification table)
